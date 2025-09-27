@@ -22,7 +22,7 @@ export default {
 </head>
 <body>
   <div class="card">
-    <h1>It works (my code)!</h1>
+    <h1>It's alive!</h1>
     <p>Served by a <strong>Cloudflare Worker</strong> from GitHub.</p>
     <p>API test: <a href="/api/ping">/api/ping</a></p>
   </div>
