@@ -52,7 +52,7 @@ export default {
   </div>
 
 
-<img src="public/bear_cat.jpg" alt="Bear Cat" width="400" />
+<img src="/bear_cat.jpg" alt="Bear Cat2" />
 
   <script>
     async function refresh() {
