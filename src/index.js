@@ -1,26 +1,3 @@
-// at the top of src/index.js (module scope)
-const instanceId = crypto.randomUUID();
-
-// when sending any response, add headers showing the colo + instance
-function withDebugHeaders(resp, request) {
-  const colo = request.cf?.colo || "unknown";
-  resp.headers.set("x-colo", colo);
-  resp.headers.set("x-instance", instanceId);
-  return resp;
-}
-
-// example usage in your json() helper:
-function json(obj, status = 200, request) {
-  const r = new Response(JSON.stringify(obj), {
-    status,
-    headers: { "content-type": "application/json; charset=utf-8" }
-  });
-  return withDebugHeaders(r, request);
-}
-
-// and when you return HTML, wrap with withDebugHeaders(response, request)
-
-
 let count = 0; // in-memory (resets on redeploy/idle)
 
 export default {
