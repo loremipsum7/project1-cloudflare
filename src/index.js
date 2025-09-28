@@ -50,6 +50,8 @@ export default {
     </div>
     <p>API test links: <a href="/api/counter">/api/counter</a></p>
   </div>
+  <img src="https://placekitten.com/300/200" alt="Kitten" />
+ <img src="  https://imgflip.com/i/1ey23i" alt="Kitten" />
 
   <script>
     async function refresh() {
