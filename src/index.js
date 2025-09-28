@@ -52,7 +52,8 @@ export default {
   </div>
 
 
-<img src="/bear_cat.jpg" alt="Bear Cat2" />
+<img src="https://raw.githubusercontent.com/loremipsum7/project1-cloudflare/main/src/data/bear%20cat.jpg" alt="Bear Cat" />
+
 
   <script>
     async function refresh() {
